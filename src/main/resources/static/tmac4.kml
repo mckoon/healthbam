@@ -14,11 +14,13 @@
         </Style>
 
         <Style id="purpleBalloon">
-            <BalloonStyle>
-                <bgColor>
-                    ffb73a67
-                </bgColor>
-            </BalloonStyle>
+            <IconStyle>
+                <Icon>
+                    <href>
+                        http://www.google.com/intl/en_us/mapfiles/ms/icons/purple-dot.png
+                    </href>
+                </Icon>
+            </IconStyle>
         </Style>
 
         <Placemark>
