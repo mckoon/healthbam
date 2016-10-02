@@ -15,9 +15,9 @@
 
         <Style id="purpleBalloon">
             <BalloonStyle>
-                <color>
+                <bgColor>
                     ff673ab7
-                </color>
+                </bgColor>
             </BalloonStyle>
         </Style>
 
