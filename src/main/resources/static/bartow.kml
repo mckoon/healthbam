@@ -5,8 +5,10 @@
         <description>Bartow County, GA</description>
         <Style id="purpleShade">
             <PolyStyle>
-                <color>ff0000cc</color>
+                <color>88EA80FC</color>
                 <colorMode>random</colorMode>
+                <fill>1</fill>
+                <outline>1</outline>
             </PolyStyle>
         </Style>
         <Placemark>
