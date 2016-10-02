@@ -6,7 +6,7 @@
 
         <Style id="purpleShade">
             <PolyStyle>
-                <color>66673ab7</color>
+                <color>66b73a67</color>
                 <colorMode>normal</colorMode>
                 <fill>1</fill>
                 <outline>1</outline>
@@ -16,7 +16,7 @@
         <Style id="purpleBalloon">
             <BalloonStyle>
                 <bgColor>
-                    ff673ab7
+                    ffb73a67
                 </bgColor>
             </BalloonStyle>
         </Style>
