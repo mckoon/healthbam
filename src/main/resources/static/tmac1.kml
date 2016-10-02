@@ -80,7 +80,7 @@
             </description>
             <Point>
                 <coordinates>
-                    33.7820263,-84.3567636
+                    -84.3567636,33.7820263
                 </coordinates>
             </Point>
         </Placemark>
@@ -96,7 +96,7 @@
             </description>
             <Point>
                 <coordinates>
-                    34.0373673,-84.5705701
+                    -84.5705701,34.0373673
                 </coordinates>
             </Point>
         </Placemark>
