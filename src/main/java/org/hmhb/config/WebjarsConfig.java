@@ -1,6 +1,8 @@
 package org.hmhb.config;
 
 import org.springframework.context.annotation.Configuration;
+import org.springframework.http.MediaType;
+import org.springframework.web.servlet.config.annotation.ContentNegotiationConfigurer;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 
@@ -26,6 +28,17 @@ public class WebjarsConfig extends WebMvcConfigurerAdapter {
                     .addResourceLocations(CLASSPATH_RESOURCE_LOCATIONS);
         }
 
+    }
+
+    @Override
+    public void configureContentNegotiation(ContentNegotiationConfigurer configurer) {
+
+        configurer.mediaType(
+                "kml",
+                MediaType.TEXT_PLAIN
+        );
+
+        super.configureContentNegotiation(configurer);
     }
 
 }
