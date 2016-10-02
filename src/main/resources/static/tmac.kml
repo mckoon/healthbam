@@ -3,6 +3,7 @@
     <Document>
         <name>Bartow County</name>
         <description>Bartow County, GA</description>
+
         <Style id="purpleShade">
             <PolyStyle>
                 <color>66673ab7</color>
@@ -11,6 +12,15 @@
                 <outline>1</outline>
             </PolyStyle>
         </Style>
+
+        <Style id="purpleBalloon">
+            <BalloonStyle>
+                <color>
+                    ff673ab7
+                </color>
+            </BalloonStyle>
+        </Style>
+
         <Placemark>
             <name>Bartow</name>
             <styleUrl>#purpleShade</styleUrl>
@@ -58,5 +68,38 @@
                 </outerBoundaryIs>
             </Polygon>
         </Placemark>
+
+        <Placemark>
+            <name>Taco Mac</name>
+            <styleUrl>#purpleBalloon</styleUrl>
+            <description>
+                <![CDATA[
+                  <h1>Taco Mac</h1>
+                  <p>This is the original.</p>
+                ]]>
+            </description>
+            <Point>
+                <coordinates>
+                    33.7820263,-84.3567636
+                </coordinates>
+            </Point>
+        </Placemark>
+
+        <Placemark>
+            <name>Taco Mac</name>
+            <styleUrl>#purpleBalloon</styleUrl>
+            <description>
+                <![CDATA[
+                  <h1>Taco Mac</h1>
+                  <p>This is near KSU.</p>
+                ]]>
+            </description>
+            <Point>
+                <coordinates>
+                    34.0373673,-84.5705701
+                </coordinates>
+            </Point>
+        </Placemark>
+
     </Document>
 </kml>

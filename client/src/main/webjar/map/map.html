@@ -12,15 +12,15 @@
             map-type-control="false"
             street-view-control="false">
 
-        <custom-marker ng-repeat="program in map.programs"
+        <!--<custom-marker ng-repeat="program in map.programs"
                        position="{{program.streetAddress}}, {{program.city}}, {{program.state}} {{program.zipCode}}">
             <md-icon md-font-library="material-icons"
                      md-colors="{color: 'primary'}">
                 place
             </md-icon>
-        </custom-marker>
+        </custom-marker>-->
 
-        <kml-layer url="https://hmhb-mckoon.herokuapp.com/bartow4.kml">
+        <kml-layer url="https://hmhb-mckoon.herokuapp.com/tmac.kml">
         </kml-layer>
 
     </ng-map>
